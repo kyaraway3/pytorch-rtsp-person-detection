@@ -1,8 +1,8 @@
-"""
+--extra-index-url https://download.pytorch.org/whl/cu118
+
 # PyTorch（CUDA 11.8 固定）
 torch==2.1.2+cu118
 torchvision==0.16.2+cu118
---extra-index-url https://download.pytorch.org/whl/cu118
 
 # NumPy（PyTorch / OpenCV 両対応の最終安定）
 numpy==1.26.4
@@ -12,4 +12,3 @@ opencv-python-headless==4.8.1.78
 
 # env 読み込み
 python-dotenv==1.0.1
-"""
